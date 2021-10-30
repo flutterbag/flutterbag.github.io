@@ -9380,7 +9380,8 @@ uu:function uu(a){this.b=a},
 ip:function ip(){},
 X9:function X9(a){this.a=a},
 JU:function JU(){},
-lw:function lw(a){this.a=a},
+lw:function lw(a,b){this.c=a
+this.a=b},
 JO:function JO(a,b){var _=this
 _.d=null
 _.x=a
@@ -57443,8 +57444,7 @@ $0:function(){var s=this.a
 K.C0(this.b).tK(V.acL(new F.a2G(s),null,t.z)).bF(0,new F.a2H(s),t.P)},
 $S:0}
 F.a2G.prototype={
-$1:function(a){this.a.d.a.toString
-return new A.lw(null)},
+$1:function(a){return new A.lw(this.a.d.a.a,null)},
 $S:376}
 F.a2H.prototype={
 $1:function(a){var s
@@ -57476,7 +57476,7 @@ $0:function(){var s=0,r=P.a0(t.P),q=this,p,o
 var $async$$0=P.X(function(a,b){if(a===1)return P.Y(b,r)
 while(true)switch(s){case 0:o=q.a
 s=2
-return P.a5(o.gA6().z5("https://fa-etat-saasfademo1.ds-fa.oraclepdemos.com/fscmRestApi/anticsrf",C.e2,!1),$async$$0)
+return P.a5(o.gA6().z5(o.a.c,C.e2,!1),$async$$0)
 case 2:s=3
 return P.a5(P.cU(o.gA6().c.a,t.DG),$async$$0)
 case 3:p=b
