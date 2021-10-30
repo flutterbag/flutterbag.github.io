@@ -57477,7 +57477,7 @@ $0:function(){var s=0,r=P.a0(t.P),q=this,p,o
 var $async$$0=P.X(function(a,b){if(a===1)return P.Y(b,r)
 while(true)switch(s){case 0:o=q.a
 s=2
-return P.a5(o.gA6().tr("https://eguq.fa.us2.oraclecloud.com:443/hcmCore/faces/ForgotPassword?backUrl=https%3A%2F%2Feguq.fa.us2.oraclecloud.com%2FfscmUI%2FadfAuthentication%3Flevel%3DFORM%26success_url%3D%252FfscmUI%252FadfAuthentication",C.e2,!0),$async$$0)
+return P.a5(o.gA6().tr("https://fa-etat-saasfademo1.ds-fa.oraclepdemos.com/fscmRestApi/anticsrf",C.e2,!0),$async$$0)
 case 2:s=3
 return P.a5(P.cU(o.gA6().c.a,t.DG),$async$$0)
 case 3:p=b
